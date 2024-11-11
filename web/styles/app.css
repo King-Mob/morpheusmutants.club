@@ -9,13 +9,25 @@ body {
   color: var(--foreground);
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-page-container {
+  max-width: 700px;
+}
+
 #title {
   margin-bottom: 0rem;
+  text-align: center;
 }
 
 #slogan {
   margin-top: 0rem;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 .post-container h2 {
