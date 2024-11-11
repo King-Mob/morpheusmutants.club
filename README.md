@@ -1,6 +1,6 @@
 # Morpheus Mutants Club Contribution Guide
 
-The project is a React typescript web-app using Parcel for building. It's the narrative blog of a community of seekers in the year 2042 who are interested in the underground world of dreamwalking.
+The project is a React typescript web-app using Parcel for building. It's the narrative blog of a community of seekers in the year 2052 who are fans of the elusive figures known as dreamwalkers.
 
 ## Adding Content
 
