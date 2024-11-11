@@ -1,4 +1,4 @@
-import { readdir, readFile, writeFile, copyFile } from "node:fs/promises";
+import { readdir, readFile, writeFile, copyFile, stat } from "node:fs/promises";
 
 const getPost = async (postFileLocation) => {
   const post = await readFile(postFileLocation, { encoding: "utf8" });
@@ -39,20 +39,24 @@ const getPosts = async () => {
 
     const commentsFolder = `${postFolder}/comments`;
 
-    const commentDateTimes = await readdir(commentsFolder);
+    const commentFolderInfo = await stat(commentsFolder);
 
-    for (const commentDateTime of commentDateTimes) {
-      const commentFolder = `${commentsFolder}/${commentDateTime}`;
+    if (commentFolderInfo.isDirectory()) {
+      const commentDateTimes = await readdir(commentsFolder);
 
-      const commentFileLocation = `${commentFolder}/comment.md`;
+      for (const commentDateTime of commentDateTimes) {
+        const commentFolder = `${commentsFolder}/${commentDateTime}`;
 
-      const { title, user, body } = await getPost(commentFileLocation);
+        const commentFileLocation = `${commentFolder}/comment.md`;
 
-      posts[postDateTime].comments[commentDateTime] = {
-        title,
-        user,
-        body,
-      };
+        const { title, user, body } = await getPost(commentFileLocation);
+
+        posts[postDateTime].comments[commentDateTime] = {
+          title,
+          user,
+          body,
+        };
+      }
     }
   }
 
