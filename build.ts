@@ -1,4 +1,5 @@
-import { readdir, readFile, writeFile, copyFile, stat } from "node:fs/promises";
+import { readdir, readFile, writeFile, copyFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 
 const getPost = async (postFileLocation) => {
   const post = await readFile(postFileLocation, { encoding: "utf8" });
@@ -39,9 +40,7 @@ const getPosts = async () => {
 
     const commentsFolder = `${postFolder}/comments`;
 
-    const commentFolderInfo = await stat(commentsFolder);
-
-    if (commentFolderInfo.isDirectory()) {
+    if (existsSync(commentsFolder)) {
       const commentDateTimes = await readdir(commentsFolder);
 
       for (const commentDateTime of commentDateTimes) {

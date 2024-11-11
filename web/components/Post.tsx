@@ -1,6 +1,7 @@
 import Markdown from "react-markdown";
 import { useState } from "react";
 import Comment from "./Comment";
+import ImageUsername from "./ImageUsername";
 
 export default function Post({ post, dateTime }) {
   const [commentsVisible, setCommentsVisible] = useState(false);
@@ -22,16 +23,11 @@ export default function Post({ post, dateTime }) {
     setCommentsVisible(!commentsVisible);
   };
 
-  console.log(post.body);
-
   return (
     <div className="post-container">
       <h2>{post.title}</h2>
       <p className="datetime">{dateTime}</p>
-      <div className="profile-container">
-        <img className="profile-image" src={`./profile-${post.user}.jpeg`} />
-        <p>{post.user}</p>
-      </div>
+      <ImageUsername user={post.user} />
       <div>
         <Markdown>{post.body}</Markdown>
       </div>
