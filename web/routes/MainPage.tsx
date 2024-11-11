@@ -10,7 +10,7 @@ export default function MainPage() {
   }
 
   return (
-    <div>
+    <div id="main-page-container">
       <h1 id="title">Morpheus Mutants Club</h1>
       <p id="slogan">There's always more for us Mutants.</p>
       <div id="posts-container">{posts}</div>
