@@ -6,7 +6,7 @@ There's only so much bullshit I can take. Seeing people celebrating on here abou
 
 Maybe I should start at the beginning. 
 
-Been a big dreamer since I was a kid and I always pulled on that thread. I dropped out of school and got into resi mods a couple of years ago. I tried InterDream's free trial and (even thoug it was totally shit) I knew it was something I wanted to really get into. I didn't want to just sit around watching neuro-recordings in my room anymore. I wanted to be part of it. So I got job, grafted hard and took the plunge to get a proper resonator.
+Been a big dreamer since I was a kid and I always pulled on that thread. I dropped out of school and got into resi mods a couple of years ago. I tried one of those EasiDreem free trials and (even thoug it was totally shit) I knew it was something I wanted to really get into. I didn't want to just sit around watching neuro-recordings in my room anymore. I wanted to be part of it. So I got job, grafted hard and took the plunge to get a proper resonator.
 
 It was right after I got my first resi that I was contacted by someone at the Dream Ecstacy Alliance. It looked cool, you know, very glossy and cute. They told me if I joined I'd be able to access their databases and that they'd give me at least 5 1-1 checkins with their 'ecstacy rep' every year. Then there was the guide books and stuff that they'd provide with a membership, it seemed legit. I thought it seemed like something that could help me break through. Maybe I'd be able to learn a thing or two, maybe make some pals and get CS fast.
 
