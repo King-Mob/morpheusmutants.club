@@ -1,3 +1,3 @@
 # Bio
 
-This user has no profile information.
+This is no profile information for this user.
