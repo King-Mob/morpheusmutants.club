@@ -16,7 +16,8 @@ The first red flag was the 'membership fee'. In order to even pay the upfront co
 
 The representative from Dream Ecstacy Alliance really pulled out all the stops to make my first experience with them memorable. I'll admit, it did make me feel excited by all the cool stuff I could do with my resi. But it was only just the first dream that actually had any depth to it. The rest was just a moneymaking scheme. Bland, glitchy and pretty much undreamable experiences. The 'guidlines' they promised? Copied and pasted from sites like this. The 'checkins' they promised? Limited and amateur at best, downright dangerous at worst.
 
-Then, the sex stuff. I mean... I get it? I guess? I knew it was something people were into, but it seemed like it's ALL they were into. It's in the name - ecstacy. I just don't understand why people wouldn't try and get pleasure from all the other cool stuff that dreams have to offer. Some people are so driven by their physical bodies that even when they're dreaming they're slaves to desires.
+Then, the sex stuff. I mean... I get it? I guess? I knew it was something people were into, but it seemed like it's ALL they were into. It's in the name - ecstacy. I just don't understand why people wouldn't try and get pleasure from all the other cool stuff that dreams have to offer. Some people are so driven by their physical bodies that even when they're dreaming they're slaves to desires. I'm not going to go into details about what they did to me here. All i'll say is that it changed the way i see this community.
 
 I could go on, but I don't want to give this sickening waste of time and money any more attention than they're already getting on here. Let's just hope whoever's reading this isn't paying these sex freaks their hard earned cash. 
 
+What people do in their own dreams is totally fine, we all have sexual urges and needs. But don't try and make money out of it or force people to do things they don't want to do.
