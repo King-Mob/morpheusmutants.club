@@ -1,0 +1,29 @@
+{
+  "name": "morpheusmutants.club",
+  "version": "1.0.0",
+  "description": "blog for members of the morpheus mutants club",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel web/index.html --dist-dir ./dist-web",
+    "build": "npx tsc && node ./dist-server/build.js",
+    "start": "npm run build && npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^8.0.1",
+    "react-router-dom": "^6.27.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  }
+}
