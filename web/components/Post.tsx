@@ -33,7 +33,7 @@ export default function Post({ post, dateTime }) {
         <p>{post.user}</p>
       </div>
       <div>
-        <Markdown>{post.body.replaceAll("\n", "\n&nbsp;")}</Markdown>
+        <Markdown>{post.body}</Markdown>
       </div>
       <button onClick={toggleComments}>
         {commentsVisible ? "Hide" : "Show"} Comments
