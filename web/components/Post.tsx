@@ -22,6 +22,8 @@ export default function Post({ post, dateTime }) {
     setCommentsVisible(!commentsVisible);
   };
 
+  console.log(post.body);
+
   return (
     <div className="post-container">
       <h2>{post.title}</h2>

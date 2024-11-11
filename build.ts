@@ -7,7 +7,7 @@ const getPost = async (postFileLocation) => {
 
   const title = splitPost[0].slice(2).trim();
   const user = splitPost[2].trim();
-  const body = splitPost.slice(4).join("");
+  const body = splitPost.slice(4).join("\n");
 
   return {
     title,
