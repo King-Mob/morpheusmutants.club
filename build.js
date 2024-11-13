@@ -1,5 +1,8 @@
-import { readdir, readFile, writeFile, copyFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+const fsPromise = require("node:fs/promises");
+const fs = require("node:fs");
+
+const { readdir, readFile, writeFile, copyFile } = fsPromise;
+const { existsSync } = fs;
 
 const getPost = async (postFileLocation) => {
   const post = await readFile(postFileLocation, { encoding: "utf8" });
