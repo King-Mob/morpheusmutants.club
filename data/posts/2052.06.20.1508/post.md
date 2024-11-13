@@ -5,7 +5,7 @@ BinTree00
 Since people are sharing their favourite walkers I thought I'd have a go at approaching this pretty mega topic. This is one for the weird kids! Recently I’ve been getting into dreamphysics so if people are interested in my tiny take, I can post again at some point and get into the details of what I know.
 
 _Siblings of the Eternal Loadstone_
-Basenames unknown but it's generally agreed among fans that there are about 9 of them and that the coven founder is Magnet Rising Stone (basename Martha Robertson).
+Basenames unknown but it's generally agreed among fans that there are about 9 of them and that the coven founder is Magma Rising Stone (basename Magda Robertson).
 
 This group of bizarre dreamwalkers assemble around celestial dream objects such as stars, planets and satellites. Believing that these transient objects have 'dream fields' and in the concept of 'dreamspacetime' (that's one for another post) they essentially worship in a way that seeks to manipulate a phenomena that could best be likened to irl electromagnetism. That's called 'dream charge'.
 
