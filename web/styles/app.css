@@ -14,9 +14,8 @@ a {
   display: inline;
 }
 
-header {
-  text-decoration-color: var(--background);
-  text-decoration-line: underline;
+.no-underline {
+  text-decoration: none;
 }
 
 #app {
@@ -91,4 +90,29 @@ button {
 
 .body-container p {
   margin-top: 0.5rem;
+}
+
+.profile-page-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 800px;
+}
+
+.profile-page-container img {
+  width: 30%;
+  margin-right: 2rem;
+}
+
+.profile-page-container p {
+  margin: 0rem;
+}
+
+.error-message-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.error-message-container img {
+  width: 100%;
 }

@@ -12,13 +12,17 @@ export default function ProfilePage({}) {
       {content.users[username] ? (
         <>
           <h1>{username}</h1>
-          <img src={`/profile-${username}.jpeg`} />
-          <Markdown>{content.users[username].bio}</Markdown>
+          <div className="profile-page-container">
+            <img src={`/profile-${username}.jpeg`} />
+            <Markdown>{content.users[username].bio}</Markdown>
+          </div>
         </>
       ) : (
         <>
-          <img src="/nightmare.jpeg" />
-          <p>No profile found for this username</p>
+          <div className="error-message-container">
+            <h1>No profile found for this username</h1>
+            <img src="/nightmare.jpeg" />
+          </div>
         </>
       )}
     </div>
