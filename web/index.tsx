@@ -11,13 +11,6 @@ import Guidelines from "./routes/Guidelines";
 
 import "./styles/app.css";
 
-const navigate = useNavigate();
-
-catchLinks(window, function (href) {
-  console.log(href);
-  navigate(href);
-});
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,5 +26,20 @@ const router = createBrowserRouter([
   },
 ]);
 
+const Root = () => {
+  const navigate = useNavigate();
+
+  catchLinks(window, function (href) {
+    console.log(href);
+    navigate(href);
+  });
+
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
+};
+
 const root = createRoot(document.getElementById("app"));
-root.render(<RouterProvider router={router} />);
+root.render(<Root />);
