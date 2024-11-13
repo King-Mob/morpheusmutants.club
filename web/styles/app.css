@@ -9,6 +9,16 @@ body {
   color: var(--foreground);
 }
 
+a {
+  color: var(--foreground);
+  display: inline;
+}
+
+header {
+  text-decoration-color: var(--background);
+  text-decoration-line: underline;
+}
+
 #app {
   display: flex;
   flex-direction: column;

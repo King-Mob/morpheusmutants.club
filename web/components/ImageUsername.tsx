@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const ImageUsername = ({ user }) => {
   const [userImage, setUserImage] = useState("anon");
@@ -13,8 +14,12 @@ const ImageUsername = ({ user }) => {
 
   return (
     <div className="profile-container">
-      <img className="profile-image" src={`./profile-${userImage}.jpeg`} />
-      <p>{user}</p>
+      <Link to={`/profile/${user}`}>
+        <img className="profile-image" src={`./profile-${userImage}.jpeg`} />
+      </Link>
+      <Link to={`/profile/${user}`}>
+        <p>{user}</p>
+      </Link>
     </div>
   );
 };
