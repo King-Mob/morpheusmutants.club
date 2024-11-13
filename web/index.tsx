@@ -1,10 +1,5 @@
 import { createRoot } from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  useNavigate,
-} from "react-router-dom";
-import catchLinks from "catch-links";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./routes/MainPage";
 import ProfilePage from "./routes/ProfilePage";
 import Guidelines from "./routes/Guidelines";
@@ -26,20 +21,5 @@ const router = createBrowserRouter([
   },
 ]);
 
-const Root = () => {
-  const navigate = useNavigate();
-
-  catchLinks(window, function (href) {
-    console.log(href);
-    navigate(href);
-  });
-
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
-};
-
 const root = createRoot(document.getElementById("app"));
-root.render(<Root />);
+root.render(<RouterProvider router={router} />);
