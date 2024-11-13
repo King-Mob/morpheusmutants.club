@@ -79,7 +79,7 @@ const getUsers = async () => {
       .join("")
       .trim();
 
-    copyFile(`${userFolder}/profile.jpeg`, `./static/profile-${userName}.jpeg`);
+    copyFile(`${userFolder}/profile.jpeg`, `./public/profile-${userName}.jpeg`);
 
     users[userName] = {
       bio,

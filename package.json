@@ -6,14 +6,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel web/index.html --dist-dir ./dist-web --no-cache",
     "build": "npx tsc && node ./dist-server/build.js",
-    "start": "npm run build && npm run dev",
-    "build-web": "npm run build && parcel build web/index.html --dist-dir ./dist-web --no-cache"
+    "start-vite": "vite --open",
+    "start": "npm run build && npm run start-vite",
+    "build-web": "npm run build && vite build web/index.html --dist-dir ./dist-web --no-cache"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "parcel": "^2.12.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-markdown": "^8.0.1",
@@ -23,8 +23,7 @@
   "devDependencies": {
     "@types/node": "^22.9.0",
     "@types/react": "^18.3.12",
-    "parcel-reporter-static-files-copy": "^1.5.3",
-    "path-browserify": "^1.0.1",
-    "process": "^0.11.10"
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "vite": "^5.4.11"
   }
 }

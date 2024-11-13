@@ -1,8 +1,8 @@
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainPage from "./routes/MainPage";
+import MainPage from "./web/routes/MainPage";
 
-import "./styles/app.css";
+import "./web/styles/app.css";
 
 const router = createBrowserRouter([
   {
