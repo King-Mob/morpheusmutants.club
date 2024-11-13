@@ -1,9 +1,17 @@
 import { content } from "../../data/content";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useNavigate } from "react-router-dom";
+import catchLinks from "catch-links";
 import Markdown from "react-markdown";
 import Header from "../components/Header";
 
 export default function ProfilePage({}) {
+  const navigate = useNavigate();
+
+  catchLinks(window, function (href) {
+    console.log(href);
+    navigate(href);
+  });
+
   const { username } = useParams();
 
   return (
