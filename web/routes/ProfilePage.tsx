@@ -6,6 +6,8 @@ import Header from "../components/Header";
 export default function ProfilePage({}) {
   const { username } = useParams();
 
+  console.log(content.users[username]);
+
   return (
     <div>
       <Header />
