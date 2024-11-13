@@ -8,7 +8,6 @@ export default function MainPage() {
   const navigate = useNavigate();
 
   catchLinks(window, function (href) {
-    console.log(href);
     navigate(href);
   });
 

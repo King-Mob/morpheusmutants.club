@@ -8,7 +8,6 @@ export default function ProfilePage({}) {
   const navigate = useNavigate();
 
   catchLinks(window, function (href) {
-    console.log(href);
     navigate(href);
   });
 
