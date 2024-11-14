@@ -40,6 +40,11 @@ And making users is similar to.
 3. Create a file called `bio.md` with the title as `Bio` and the content as their user-defined biography
 4. Add a picture in the folder, called `profile.jpeg`.
 
+### Adding Links to Documents
+
+1. Drop your document in the `/public` folder
+2. Then format the link like so: `[this is the link text](/file.pdf)`
+
 ## Seeing your new content
 
 If you want you can just drag new files into the github folder structure and make a new commit. This is simple for you in terms of installing and setting up the project, but you'll have to wait a minute or two to see what your changes look like on the site while it builds and release.
