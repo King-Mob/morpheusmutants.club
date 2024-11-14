@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "catch-links": "^2.0.1",
     "dotenv": "^16.4.5",
     "parcel": "^2.12.0",
     "react": "^18.3.1",
@@ -25,6 +26,7 @@
     "@types/react": "^18.3.12",
     "parcel-reporter-static-files-copy": "^1.5.3",
     "path-browserify": "^1.0.1",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "url": "^0.11.4"
   }
 }
