@@ -1,15 +1,21 @@
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainPage from "./routes/MainPage";
-import ProfilePage from "./routes/ProfilePage";
-import Guidelines from "./routes/Guidelines";
+import MainPage from "./web/routes/MainPage";
+import About from "./web/routes/AboutPage";
+import NoMatch from "./web/routes/NoMatch";
+import ProfilePage from "./web/routes/ProfilePage";
+import Guidelines from "./web/routes/Guidelines";
 
-import "./styles/app.css";
+import "./web/styles/app.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
   {
     path: "/profile/:username",
@@ -18,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/guidelines",
     element: <Guidelines />,
+  },
+  {
+    path: "*",
+    element: <NoMatch />,
   },
 ]);
 

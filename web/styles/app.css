@@ -116,3 +116,12 @@ button {
 .error-message-container img {
   width: 100%;
 }
+
+#no-match-container {
+  max-width: 800px;
+  width: 100%;
+}
+
+#no-match-container img {
+  width: 100%;
+}
