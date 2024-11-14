@@ -3,9 +3,9 @@ import Header from "../components/Header";
 
 export default function NoMatch() {
   return (
-    <div>
+    <div id="no-match-container">
       <Header />
-      <h1>No page found</h1>
+      <h1>No page found at that address</h1>
       <img src="/nightmare.jpeg" />
       <Link to="/">
         <p>back to main page</p>
