@@ -1,7 +1,16 @@
+import catchLinks from "catch-links";
+import { useNavigate } from "react-router-dom";
 import { content } from "../../data/content";
+import Header from "../components/Header";
 import Post from "../components/Post";
 
 export default function MainPage() {
+  const navigate = useNavigate();
+
+  catchLinks(window, function (href) {
+    navigate(href);
+  });
+
   const posts = [];
 
   for (const postDateTime in content.posts) {
@@ -11,8 +20,7 @@ export default function MainPage() {
 
   return (
     <div id="main-page-container">
-      <h1 id="title">Morpheus Mutants Club</h1>
-      <p id="slogan">There's always more for us Mutants.</p>
+      <Header />
       <div id="posts-container">{posts}</div>
     </div>
   );

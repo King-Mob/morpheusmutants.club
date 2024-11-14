@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./web/routes/MainPage";
 import About from "./web/routes/AboutPage";
 import NoMatch from "./web/routes/NoMatch";
+import ProfilePage from "./routes/ProfilePage";
+import Guidelines from "./routes/Guidelines";
 
 import "./web/styles/app.css";
 
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/profile/:username",
+    element: <ProfilePage />,
+  },
+  {
+    path: "/guidelines",
+    element: <Guidelines />,
   },
   {
     path: "*",
