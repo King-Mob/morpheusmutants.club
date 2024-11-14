@@ -3,8 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./web/routes/MainPage";
 import About from "./web/routes/AboutPage";
 import NoMatch from "./web/routes/NoMatch";
-import ProfilePage from "./routes/ProfilePage";
-import Guidelines from "./routes/Guidelines";
+import ProfilePage from "./web/routes/ProfilePage";
+import Guidelines from "./web/routes/Guidelines";
 
 import "./web/styles/app.css";
 
