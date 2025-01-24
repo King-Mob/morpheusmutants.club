@@ -25,14 +25,17 @@ export default function Post({ post, dateTime }) {
   };
 
   return (
-    <div className="post-container">
-      <h2>{post.title}</h2>
+    <div className="post-container">   
+      <h2 id={`post-${dateTime.split(".").join("")}`}>{post.title}</h2>
       <DateTime dateTime={dateTime} />
       <ImageUsername user={post.user} />
       <div>
         <Markdown>{post.body}</Markdown>
       </div>
-      <button onClick={toggleComments}>
+      <button
+        onClick={toggleComments}
+        id={`post-${dateTime.split(".").join("")}-button`}
+      >
         {commentsVisible ? "Hide" : "Show"} Comments
       </button>
       {commentsVisible && <div className="comments-container">{comments}</div>}
