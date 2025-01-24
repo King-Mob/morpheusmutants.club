@@ -2,6 +2,7 @@ import Markdown from "react-markdown";
 import { useState } from "react";
 import Comment from "./Comment";
 import ImageUsername from "./ImageUsername";
+import DateTime from "./DateTime";
 
 export default function Post({ post, dateTime }) {
   const [commentsVisible, setCommentsVisible] = useState(false);
@@ -24,9 +25,9 @@ export default function Post({ post, dateTime }) {
   };
 
   return (
-    <div className="post-container">
+    <div className="post-container">   
       <h2 id={`post-${dateTime.split(".").join("")}`}>{post.title}</h2>
-      <p className="datetime">{dateTime}</p>
+      <DateTime dateTime={dateTime} />
       <ImageUsername user={post.user} />
       <div>
         <Markdown>{post.body}</Markdown>
