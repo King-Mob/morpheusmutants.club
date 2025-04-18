@@ -1,131 +1,156 @@
 :root {
-  --background: #2e2e2e;
-  --foreground: #efefef;
+    --background: #2e2e2e;
+    --foreground: #efefef;
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
-  background-color: var(--background);
-  color: var(--foreground);
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--background);
+    color: var(--foreground);
+    margin: 0;
 }
 
 a {
-  color: var(--foreground);
-  display: inline;
+    color: var(--foreground);
+    display: inline;
 }
 
 .no-underline {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #main-page-container {
-  max-width: 700px;
+    max-width: 700px;
 }
 
 #title {
-  margin-bottom: 0rem;
-  text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    text-align: center;
 }
 
 #slogan {
-  margin-top: 0rem;
-  font-size: 1.25rem;
-  text-align: center;
+    margin-top: 0rem;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 .post-container h2 {
-  margin-bottom: 0rem;
-  margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
 }
 
 .datetime {
-  margin: 0rem;
+    margin: 0rem;
 }
 
-img{
-  width: 100%;
+img {
+    width: 100%;
 }
 
 .profile-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .profile-image {
-  border-radius: 50%;
-  margin-right: 1rem;
-  max-width: 2rem;
-  height: 2rem;
-  width: 2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    max-width: 2rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .profile-container p {
-  margin: 0rem;
+    margin: 0rem;
 }
 
 button {
-  font-family: "Courier New", Courier, monospace;
-  text-decoration: underline;
-  color: var(--foreground);
-  background-color: var(--background);
-  border: none;
-  padding: 0rem;
-  margin-bottom: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: underline;
+    color: var(--foreground);
+    background-color: var(--background);
+    border: none;
+    padding: 0rem;
+    margin-bottom: 1rem;
 }
 
 .comments-container {
-  padding-left: 2rem;
+    padding-left: 2rem;
 }
 
 .comment-container {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .comment-container h3 {
-  margin: 0rem;
+    margin: 0rem;
 }
 
 .body-container p {
-  margin-top: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .profile-page-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 800px;
 }
 
 .profile-page-container img {
-  width: 30%;
-  margin-right: 2rem;
+    width: 30%;
+    margin-right: 2rem;
 }
 
 .profile-page-container p {
-  margin: 0rem;
+    margin: 0rem;
 }
 
 .error-message-container {
-  width: 100%;
-  max-width: 800px;
+    width: 100%;
+    max-width: 800px;
 }
 
 .error-message-container img {
-  width: 100%;
+    width: 100%;
 }
 
 #no-match-container {
-  max-width: 800px;
-  width: 100%;
+    max-width: 800px;
+    width: 100%;
 }
 
 #no-match-container img {
-  width: 100%;
+    width: 100%;
+}
+
+#access-header {
+    background-color: #cca755;
+    width: 100%;
+    position: fixed;
+    color: black;
+}
+
+#access-header p {
+    margin: 1rem 1rem;
+}
+
+#access-header button {
+    margin-left: 1rem;
+    color: black;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.blur {
+    filter: blur(10px);
 }
