@@ -47,6 +47,7 @@ export default function MainPage() {
         <>
             <Access setBlur={setBlur} />
             <div id="main-page-container" className={blur ? "blur" : ""}>
+                {blur && <div id="blocker" />}
                 <Header />
                 <div id="posts-container">{posts}</div>
             </div>
