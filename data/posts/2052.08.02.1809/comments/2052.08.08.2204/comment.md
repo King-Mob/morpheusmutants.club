@@ -1,4 +1,4 @@
-Independent thought
+# Independent thought
 
 Trade61
 
