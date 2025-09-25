@@ -1,4 +1,4 @@
-#AUTOMATED_MESSAGE
+# AUTOMATED_MESSAGE
 
 bot_guidelines
 
