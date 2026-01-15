@@ -5,6 +5,7 @@ import { content } from "../../data/content";
 import Header from "../components/Header";
 import Post from "../components/Post";
 import Access from "../components/Access";
+import EndAnalysis from "../components/EndAnalysis";
 
 export default function MainPage() {
     const navigate = useNavigate();
@@ -51,6 +52,7 @@ export default function MainPage() {
                 <Header />
                 <div id="posts-container">{posts}</div>
             </div>
+            <EndAnalysis />
         </>
     );
 }

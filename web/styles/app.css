@@ -163,3 +163,18 @@ button {
     width: 100%;
     position: fixed;
 }
+
+#access-footer {
+    background-color: #cca755;
+    width: 100%;
+    color: black;
+    z-index: 1;
+}
+
+#access-footer p {
+    margin: 1rem 1rem;
+}
+
+#access-footer input {
+    margin: 1rem 1rem;
+}
