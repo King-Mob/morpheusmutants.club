@@ -22,10 +22,17 @@ export default function Question({ q }) {
         }
     }
 
+    function resetQuestion() {
+        setAnswer("");
+        setSubmitted(false);
+        setReceived(false);
+        setError("");
+    }
+
     return <div className="question-container">
         <p>{q}</p>
         {
-            submitted ? received ? <><p>Thank you for submitting an answer.</p></> : <>
+            submitted ? received ? <><p>Thank you for submitting an answer.</p> <button onClick={resetQuestion}>submit new answer</button></> : <>
                 <p>Processing answer</p>
             </> : <>
                 <input type="text" value={answer} onChange={e => setAnswer(e.target.value)}></input>
