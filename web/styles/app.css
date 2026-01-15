@@ -176,5 +176,9 @@ button {
 }
 
 #access-footer input {
-    margin: 1rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+#access-footer button {
+    margin: 0rem 1rem;
 }
