@@ -8,6 +8,7 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     margin: 0;
+    background-image: url("../moon_icon.png");
 }
 
 a {
@@ -41,6 +42,10 @@ a {
     margin-top: 0rem;
     font-size: 1.25rem;
     text-align: center;
+}
+
+.post-container {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .post-container h2 {
@@ -82,6 +87,7 @@ button {
     border: none;
     padding: 0rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .comments-container {
