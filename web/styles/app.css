@@ -8,7 +8,7 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     margin: 0;
-    background-image: url("./assets/moon_icon.png");
+    background-image: url("../moon_icon.png");
 }
 
 a {
