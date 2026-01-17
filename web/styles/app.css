@@ -44,6 +44,10 @@ a {
     text-align: center;
 }
 
+.post-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .post-container h2 {
     margin-bottom: 0rem;
     margin-top: 0.5rem;
