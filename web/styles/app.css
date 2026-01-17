@@ -87,6 +87,7 @@ button {
     border: none;
     padding: 0rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .comments-container {
